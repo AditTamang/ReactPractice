@@ -1,0 +1,38 @@
+/* Button styling */
+.button {
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px 4px;
+    padding: 10px 5px;
+    border-radius: 30px;
+    width: 100%;
+    transition: background-color 0.2s, color 0.2s;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+}
+  
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.instagram .insta-btn{
+    background-color: white !important;
+    color: #FF3399;
+    border: 1px solid pink;
+    cursor: pointer;
+    margin: 10px 4px;
+    padding: 10px 5px;
+    border-radius: 30px;
+    width: 100%;
+    transition: background-color 0.2s, color 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+}
+
+.insta-btn:hover{
+    background-color: white;
+    color: pink;
+}
+  
